@@ -11,7 +11,9 @@
 ---
 
 ## What is Markdown?  
-Markdown is a lightweight markup language that allows you to format text easily using simple syntax. It is commonly used in documentation, README files, and online writing.
+Markdown is a lightweight markup language that allows you to format text 
+easily using simple syntax. It is commonly used in documentation, README 
+files, and online writing.
 
 Some basic elements in Markdown include:
 
@@ -31,4 +33,31 @@ Some basic elements in Markdown include:
 ### 1. **Verificar el estado de un repositorio local**  
 ```bash
 git status
+
+
+Para agregar todos los archivos:
+bash
+Copiar
+git add .
+
+Agregar comentarios al commit
+git commit -m "Comentario de cambios"
+
+Subir tus cambios al repositorio remoto
+git push origin <nombre_de_rama>
+
+Crear, explorar y eliminar ramas
+
+Para crear una nueva rama:
+git branch <nombre_de_rama>
+
+Para cambiar a una rama:
+git checkout <nombre_de_rama>
+Para eliminar una rama:
+git branch -d <nombre_de_rama>
+
+Revertir un repositorio a un commit específico
+git checkout <commit_id>
+
+
 
